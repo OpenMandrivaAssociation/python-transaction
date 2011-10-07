@@ -1,12 +1,12 @@
 Name:		python-transaction
-Version:	1.0.0
-Release:	%mkrel 2
+Version:	1.1.1
+Release:	%mkrel 1
 Group:		Development/Python
 License:	Zope Public License
 Summary:	Transaction management for Python
 # md5=10b5d02dcded26f6f265771e6d68fc06
-Source:		http://pypi.python.org/packages/source/t/transaction/transaction-1.0.0.tar.gz
-URL:		http://pypi.python.org/pypi/transaction/1.0.0
+Source:		http://pypi.python.org/packages/source/t/transaction/transaction-%{version}.tar.gz
+URL:		http://pypi.python.org/pypi/transaction/
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
 BuildRequires:	python-devel
