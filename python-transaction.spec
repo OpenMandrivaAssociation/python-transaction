@@ -1,14 +1,16 @@
 Name:		python-transaction
-Version:	1.1.1
-Release:	2
+Version:	1.4.1
+Release:	1
 Group:		Development/Python
 License:	Zope Public License
 Summary:	Transaction management for Python
 # md5=10b5d02dcded26f6f265771e6d68fc06
-Source:		http://pypi.python.org/packages/source/t/transaction/transaction-%{version}.tar.gz
+Source:		http://pypi.python.org/packages/source/t/transaction/transaction-%{version}.zip
 URL:		http://pypi.python.org/pypi/transaction/
 BuildRequires:	python-devel
 BuildRequires:	python-setuptools
+
+%define debug_package %{nil}
 
 %description
 This package contains a generic transaction implementation for Python.
@@ -46,4 +48,5 @@ sed -i 's/.*egg-info$//' INSTALLED_FILES
 + Revision: 411006
 - Initial import of python-transaction version 1.0.0.
 - python-transaction
+
 
