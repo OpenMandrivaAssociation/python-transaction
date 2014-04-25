@@ -1,4 +1,5 @@
 removed_sources:
   transaction-1.1.1.tar.gz: af22af9e737dfdc59627b3686aead6dbc199bc1d
-sources:
   transaction-1.4.1.zip: 89637f6e913b53ed6933f69ebb7a483233257ce6
+sources:
+  transaction-1.4.3.tar.gz: 19b11f7184cd7769678ff6b6a4419c5345d8718d
