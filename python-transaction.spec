@@ -1,6 +1,6 @@
 Name:		python-transaction
 Version:	1.4.3
-Release:	1
+Release:	2
 Group:		Development/Python
 License:	Zope Public License
 Summary:	Transaction management for Python
