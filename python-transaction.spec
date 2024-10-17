@@ -7,7 +7,7 @@ Summary:	Transaction management for Python
 
 # md5=10b5d02dcded26f6f265771e6d68fc06
 Source:		http://pypi.python.org/packages/source/t/transaction/transaction-%{version}.tar.gz
-URL:		http://pypi.python.org/pypi/transaction/
+URL:		https://pypi.python.org/pypi/transaction/
 BuildRequires:	python-devel
 BuildRequires:	python-setuptools
 
